@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:rolling
 
 ENV TERM xterm
 RUN ln -fs /usr/share/zoneinfo/America/New_York /etc/localtime
